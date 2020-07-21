@@ -1,0 +1,104 @@
+<mvc:View controllerName="Layout.ObjectPageLayout.controller.App" 
+			xmlns:mvc="sap.ui.core.mvc" 
+			displayBlock="true"
+			xmlns:u="sap.uxap"
+			xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<u:ObjectPageLayout id="ObjectPageLayout"
+							enableLazyLoading="true">
+							<u:headerTitle>
+								<u:ObjectPageHeader objectTitle="ObjectPage with LazyLoading">
+									<u:actions>
+										<u:ObjectPageHeaderActionButton icon="sap-icon://pull-down" text="show section" type="Emphasized" tooltip="pull-down"/>
+										<u:ObjectPageHeaderActionButton icon="sap-icon://show" text="show state" type="Emphasized" tooltip="show"/>
+									</u:actions>
+								</u:ObjectPageHeader>
+							</u:headerTitle>
+							<u:sections>
+								<u:ObjectPageSection title="my section">
+									<u:subSections>
+										<u:ObjectPageSubSection title="Section 1">
+											<u:blocks>
+												<Text text="Section 2" />
+												<!--<employment:EmploymentBlockJob id="employmentblockjob1">-->
+												<!--	<employment:mappings>-->
+												<!--		<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp1"-->
+												<!--					  externalPath="/Employee/0"/>-->
+												<!--		<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp2"-->
+												<!--					  externalPath="/Employee/1"/>-->
+												<!--		<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp3"-->
+												<!--					  externalPath="/Employee/2"/>-->
+												<!--		<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp4"-->
+												<!--					  externalPath="/Employee/3"/>-->
+												<!--		<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp5"-->
+												<!--					  externalPath="/Employee/4"/>-->
+												<!--		<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp6"-->
+												<!--					  externalPath="/Employee/5"/>-->
+												<!--	</employment:mappings>-->
+												<!--</employment:EmploymentBlockJob>-->
+											</u:blocks>
+										</u:ObjectPageSubSection>
+									</u:subSections>
+								</u:ObjectPageSection>
+								<u:ObjectPageSection title="my section">
+									<u:subSections>
+										<u:ObjectPageSubSection title="Section 2" mode="Expanded">
+											<u:blocks>
+												<Text text="Section 2" />
+												<!--<employment:EmploymentBlockJob id="employmentblockjob1">-->
+												<!--	<employment:mappings>-->
+												<!--		<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp1"-->
+												<!--					  externalPath="/Employee/0"/>-->
+												<!--		<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp2"-->
+												<!--					  externalPath="/Employee/1"/>-->
+												<!--		<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp3"-->
+												<!--					  externalPath="/Employee/2"/>-->
+												<!--		<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp4"-->
+												<!--					  externalPath="/Employee/3"/>-->
+												<!--		<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp5"-->
+												<!--					  externalPath="/Employee/4"/>-->
+												<!--		<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp6"-->
+												<!--					  externalPath="/Employee/5"/>-->
+												<!--	</employment:mappings>-->
+												<!--</employment:EmploymentBlockJob>-->
+											</u:blocks>
+										</u:ObjectPageSubSection>
+									</u:subSections>
+								</u:ObjectPageSection>
+								<u:ObjectPageSection title="my section">
+										<u:subSections>
+											<u:ObjectPageSubSection title="Section 3" mode="Expanded">
+												<u:blocks>
+													<Text text="Section 3" />
+													<!--<employment:EmploymentBlockJob id="employmentblockjob1">-->
+													<!--	<employment:mappings>-->
+													<!--		<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp1"-->
+													<!--					  externalPath="/Employee/0"/>-->
+													<!--		<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp2"-->
+													<!--					  externalPath="/Employee/1"/>-->
+													<!--		<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp3"-->
+													<!--					  externalPath="/Employee/2"/>-->
+													<!--		<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp4"-->
+													<!--					  externalPath="/Employee/3"/>-->
+													<!--		<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp5"-->
+													<!--					  externalPath="/Employee/4"/>-->
+													<!--		<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp6"-->
+													<!--					  externalPath="/Employee/5"/>-->
+													<!--	</employment:mappings>-->
+													<!--</employment:EmploymentBlockJob>-->
+												</u:blocks>
+											</u:ObjectPageSubSection>
+										</u:subSections>
+									</u:ObjectPageSection>
+								</u:sections>
+						</u:ObjectPageLayout>	
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
